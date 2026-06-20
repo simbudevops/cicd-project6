@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage('code'){
             steps {
-                git url: 'https://github.com/simbudevops/cicd-project6.git', branch: 'main'
+                git url: 'https://github.com/simbudevops/cicd-project6.git', branch: 'master'
             }
         }
         stage('Build and Test'){
